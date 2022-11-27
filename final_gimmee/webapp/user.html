@@ -1,0 +1,134 @@
+<!-- author: Jinseon Son -->
+<!-- html:5 + enter-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+</head>
+<style>
+     body{
+		margin:0;
+		padding:0;
+		font-size:1.2rem;
+		overflow-x:hidden;
+	
+		background-color: #F1DEDE;
+	}	
+    #작은로고 {
+        width: 675px;
+        height: 284px;
+        margin-top: 41px;
+        right: 826px;
+        bottom: 699px;
+    }
+    label {
+        padding-left: 50px;
+        color: #803434;
+        font-weight: 700;
+        font-family: 'Inter';
+        font-style: normal;
+        font-size: 32px;
+        line-height: 39px;
+        height: 39px;
+    }
+    div {
+        margin-top: 59px;
+    }
+ 
+    #pw {
+        margin-top: 34px;
+        margin-left: 104px;
+        padding-left: 10px;
+    }
+    #pw_check {
+        margin-top: 27px;
+        margin-left: 30px;
+        padding-left: 10px;
+    }
+    #이름, #휴대전화, #authNo {
+        margin-top: 27px;
+        width: 512px;
+        height: 38px;
+        padding-left: 10px;
+    }
+    #이름 {
+        margin-left: 163px;
+        background-color: #C4C4C4;
+        border-style: none;
+    }
+    #휴대전화 {
+        background-color: #C4C4C4;
+        margin-left: 104px;
+        border-style: none;
+    }
+  
+    input[type*="password"] {
+        background-color: #C4C4C4;
+        border-style: none;
+        width: 512px;
+        height: 38px;
+        position: relative;
+        top: -8px;
+    }
+    input[type*="tel"] {
+        border-style: none;
+        position: relative;
+        top: -8px;
+        font-size: 20px;
+    }
+    input[type="text"] {
+        position: relative;
+        top: -8px;
+   }
+   
+    input:focus {
+            outline: none;
+        }
+    #가입하기 {
+        background-color: #FEFCC7;
+        border-radius: 20px;
+        border-style: none;
+        position: absolute;
+        width: 271px;
+        height: 75px;
+        left: 1300px;
+        top: 850px;
+        right: 74px;
+        bottom: 49px;
+        margin-left: 200px;
+    }
+    label[for="가입하기"]{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #B45656;
+        padding-left: 0%;
+    }
+  
+</style>
+<body>
+    <img src="images/small_logo.png" alt="작은로고" id="작은로고">
+    <div>
+            <label>이름</label>
+            <input type="text" id="이름" /><br/>
+            <span class="pw_box">
+            <label>비밀번호</label>
+            <input type="password" id="pw" /><br/>
+            <label>비밀번호 확인</label>
+            <input type="password" id="pw_check" /><br/>
+        	</span>
+            <label>휴대전화</label>
+            <input type="tel" id="휴대전화"/>&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+            </span>
+    </div>
+    <a href="main.html">
+   	 <button id="가입하기"><label for="가입하기">저장하기</label></button>
+   	</a>
+</body>
+</html>
