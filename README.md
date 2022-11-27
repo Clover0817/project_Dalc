@@ -1,5 +1,5 @@
 # project_Dalc
-2021 교내 AI동아리 DALC<br>
+2021 AI동아리 DALC<br>
 -웹 서비스 개발::맞춤 선물 추천 서비스<br>
 -담당 파트: frontend
 
